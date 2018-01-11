@@ -19,7 +19,7 @@ Make an appointment to see me by clicking https://arnholtat.youcanbook.me/.
 
 **Course Description:**  
 
-Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge. The goal of Data Science I is to help you learn the most important tools in R that will allow you to do data science.
+This course is an introduction to the basics of data management and visualization, including reproducible workflow. Topics include introductory concepts of programming and work flow, data manipulation, and data visualization using grammar of graphics. The course will also emphasize the practice of creating reproducible research using a version control system with dynamic document reporting, including tools such as R, R Studio, R Markdown, and Git.  
 
 **Course Objectives:**
 
