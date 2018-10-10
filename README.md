@@ -7,3 +7,5 @@ Data science is an exciting discipline that allows you to turn raw data into ins
 This is a special topics course offering that is currently under proposal as a catalogue course.
 
 http://bulletin.appstate.edu/
+
+test change
