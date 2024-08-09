@@ -1,0 +1,385 @@
+---
+title: "Tentative STT 2860 Course Schedule - Fall 2024"
+output:
+  html_document:
+    css: ../css/style.css
+    highlight: textmate
+    theme: yeti
+  pdf_document: default
+---
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+________________________________
+
+### General Notes: {-}
+
+```{block, note-text, type='rmdnote'}
+1.  Please bring a notebook and pencil to every class.
+2.  The principal documents for this course are [R for Data Science (2e)](https://r4ds.hadley.nz/) (R4DS), and [_Data Science with R_](https://stat-ata-asu.github.io/R_DS_BD2020/) (DSWR)
+3. [QUARTO cheat sheet](https://images.datacamp.com/image/upload/v1676540721/Marketing/Blog/Quarto_Cheat_Sheet.pdf)
+```
+
+
+_________
+
+## Week 1: (Aug 19, 21, 23) {-}
+
+
+* Before the first class meeting, read Chapter 1 (Getting Started with Data in R) of [MD](https://moderndive.com/1-getting-started.html)---pgs 1-20
+
+* Become familiar with the Appstate [RStudio/POSIT workbench](https://mathr.appstate.edu/) server. You will use your Appstate user name and password to log in to the server.  You must be registered in the class to access the server.
+
+* Complete the **Intro to Basics** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 20
+
+* Complete the **Vectors** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 22
+
+* Complete the **Matrices** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 23
+
+
+
+ 
+```{block, week1optional, type='rmdoptional'}
+#### Optional {-}
+*  _Introduction to R_ [slides](https://alanarnholt.github.io/GeneralStatistics/rmarkdown/IntroToR.html)
+
+* Watch Paul the Octopus [clip](https://www.youtube.com/watch?v=3ESGpRUMj9E) (61 seconds).
+
+* You may want to install [Git](http://git-scm.com/downloads), [R](http://cran.r-project.org), [RStudio](http://www.rstudio.com/products/rstudio/download/), [zotero](https://www.zotero.org), and optionally [$LaTeX$](http://www.ctan.org/starter) on your personal computer. If you do, you will want to follow Jenny Bryan's excellent advice for [installing R and RStudio](http://stat545-ubc.github.io/block000_r-rstudio-install.html) and [installing Git](http://stat545-ubc.github.io/git01_git-install.html).  Jenny's advice is also in chapters 6 and 7 of [Happy Git and GitHub for the useR](http://happygitwithr.com/).  Note: [Git](http://git-scm.com/downloads), [R](http://cran.r-project.org), [RStudio](http://www.rstudio.com/products/rstudio/download/), and [$LaTeX$](http://www.ctan.org/starter) are installed on the [Appstate RStudio](https://mathr.appstate.edu/) server.
+
+* Watch the following videos as appropriate:
+
+* [Install R on Mac (2 min)](https://www.youtube.com/watch?v=lJxVRgiX-ik)    
+
+* [Install R for Windows (3 min)](https://www.youtube.com/watch?v=LII6of-5Odw)    
+
+* [Install R and RStudio on Windows (5 min)](https://www.youtube.com/watch?v=eD07NznguA4)  
+
+
+
+```
+
+______________
+
+## Week 2: (Aug 26, 28, 30) {-}
+
+* Complete the **Factors** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 20
+
+* Complete the **Data Frames** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 28
+
+* Complete the **Lists** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 30
+
+
+```{block, week2optional, type='rmdoptional'}
+#### Optional {-}
+
+* Read [Getting used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/)
+
+
+```
+
+__________________
+
+
+## Week 3: (Sep 4, 6) {-}
+
+
+* Complete the **Introduction** chapter of _Introduction to Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 4
+
+* Complete the **Aesthetics** chapter of _Introduction to Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 6
+
+
+```{block, test3, type='rmdexercise'}
+Test yourself:
+
+
+```
+
+```{block, week3optional, type='rmdoptional'}
+#### Optional {-}
+
+* Posit [Cheat Sheets](https://posit.co/resources/cheatsheets/)
+
+* Work through chapter 5 (Using `ggplot2`) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)
+
+
+```
+
+___________
+
+## Week 4: (Sep 9, 11, 13) {-}
+
+
+* Before the first class meeting, read Chapter 1 [Why Git? Why GitHub?](https://happygitwithr.com/big-picture) of Happy Git With `R`.
+
+We will walk through everything outlined below in class.  If you want to complete the setup before class that is fine.    
+
+* Sign-up for a free account on [GitHub](https://github.com).  When you register for a free individual GitHub account, request a [student discount](https://education.github.com) to obtain a few private repositories as well as unlimited public repositories.  Please use something similar to **FirstNameLastName** as your username when you register with GitHub.  For example, my username on GitHub is *alanarnholt*. If you have a popular name such as John Smith, you may need to provide some other distinguishing characteristic in your username.  
+
+* Introduce yourself to Git by following the directions in [HappyGitWithR](https://happygitwithr.com/hello-git)
+
+* Cache your credentials and set up a personal access token (PAT) by following the directions in [HappyGitWithR](https://happygitwithr.com/credential-caching.html).
+
+* TL;DR the chapters in Happy Git With R --- follow this document to [Set up Git and GitHub](../Handouts/setup.html)
+
+* [VIDEO of the setup process](https://drive.google.com/file/d/1L-v9qAVHWtvXOTYjY8wvedH5VyzmeQeL/view?usp=drive_link)
+
+* [VIDEO of how to accept and clone the assignment](https://drive.google.com/file/d/1JUag-0U-reD_JcKHvez50I_4R-CCMUMt/view?usp=drive_link)
+
+* Complete the **Geometries** chapter of _Introduction to Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 11
+
+* Complete the **Themes** chapter of _Introduction to Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 13
+
+
+```{block, week4optional, type='rmdoptional'}
+#### Optional {-}
+
+* Read the [Git and GitHub](http://r-pkgs.had.co.nz/git.html) chapter from Hadley Wickham's book [R Packages](http://r-pkgs.had.co.nz/)
+
+* Brian Caffo's take on [R IDEs](https://www.youtube.com/watch?v=O2UFfiGdGFA)
+
+* Work through chapter 1 (Git and GitHub) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/).  Make sure RStudio is set up to communicate with Git by following the directions in [HappyGitWithR](https://happygitwithr.com/hello-git.html) for introducing yourself to Git.
+
+```
+
+__________________
+
+
+
+## Week 5: (Sep 16, 18, 20) {-}
+
+* Complete the **Statistics** chapter of _Intermediate Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 16
+
+* Complete the **Coordinates** chapter of _Intermediate Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 18
+
+
+
+
+```{block, week5optional, type='rmdoptional'}
+#### Optional {-}
+
+* 
+
+```
+
+_______________
+
+## Week 6: (Sep 23, 25, 27) {-}
+
+* Complete the **Facets** chapter of _Intermediate Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 23
+
+* Complete the **Best Practices** chapter of _Intermediate Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 25
+
+
+```{block, week6optional, type='rmdoptional'}
+#### Optional {-}
+
+* Work on [Is this Discrimination?](../Rmarkdown/ClassAssignment.html)
+
+* Some ideas for how to answer the [Is this Discrimination?](../Rmarkdown/discrimination.html)
+```
+
+_____________
+
+
+## Week 7: (Sep 30, Oct 2, 4) {-}
+
+* Complete the **Data Wrangling** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 30
+
+* Complete the **Data Visualization** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 2
+
+
+
+```{block, week7optional, type='rmdoptional'}
+#### Optional {-}
+
+* Read chapter 3 (Data Wrangling) of [MD](https://moderndive.com/3-wrangling.html) --- pgs 65-96
+
+* Read chapter 4 (Data Importing and "Tidy" Data) of [MD](https://moderndive.com/4-tidy.html) --- pgs 99-117
+
+* Work through chapter 3 (Starting with Data) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)
+
+* Work through chapter 4 (Data Manipulation) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)
+
+```
+
+
+
+___________
+
+
+## Week 8: (Oct 7, 9, 11) {-}
+
+* Complete the **Grouping and Summarizing** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 7
+
+* Complete the **Types of Visualizations** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 9
+
+```{block, week8optional, type='rmdoptional'}
+#### Optional {-}
+
+  * 
+```
+
+_______________
+
+## Fall Break: Oct 14 -- 15
+
+_______________
+
+## Week 9: (Oct 16, 18) {-}
+
+* Complete the **Transforming Data with dplyr** chapter of _Data Manipulation with dplyr_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 16
+
+* Complete the **Aggregating Data** chapter of _Data Manipulation with dplyr_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 18
+
+
+
+```{block, week9optional, type='rmdoptional'}
+#### Optional {-}
+
+* Read chapter 3 (Data Wrangling) of [MD](https://moderndive.com/3-wrangling.html) --- pgs 65-96
+
+* Read chapter 4 (Data Importing and "Tidy" Data) of [MD](https://moderndive.com/4-tidy.html) --- pgs 99-117
+
+* Work through chapter 3 (Starting with Data) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)
+
+* Work through chapter 4 (Data Manipulation) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)
+* In-class work on [dplyr-CH1-handout](https://classroom.github.com/a/KW93xo-0)
+* In-class work on [dplyr-CH2-handout](https://classroom.github.com/a/07LSd4MF) 
+* In-class work on [dplyr-CH3-handout](https://classroom.github.com/a/GwaVpLyL) 
+* In-class work on [dplyr-CH4-handout](https://classroom.github.com/a/ZOX7kXns) 
+
+```
+
+___________________________
+
+
+## Week 10: (Oct 22 -- 24) {-}
+
+* Complete the **Transforming Data with dplyr** chapter of _Data Manipulation with dplyr_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 16
+
+* Complete the **Aggregating Data** chapter of _Data Manipulation with dplyr_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 18
+
+
+```{block, week10optional, type='rmdoptional'}
+#### Optional {-}
+
+*
+
+```
+
+_______________________
+
+
+## Week 11: (Oct 28, 30, Nov 1) {-}
+
+* Complete the **Custom ggplot2 Themes** chapter of _Communicating with Data in the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 29
+
+* Complete the **Creating a Custom and Unique Visualization** chapter of _Communicating with Data in the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 30
+
+
+_____________________
+
+
+
+
+```{block, week11optional, type='rmdoptional'}
+#### Optional {-}
+
+* 
+```
+
+__________________
+
+## Week 12: (Nov 4, 6, 8) {-}
+
+* Complete the **Introduction to RMarkdown** chapter of _Communicating with Data in the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Nov 4
+
+* Complete the **Customizing your RMarkdown Report** chapter of _Communicating with Data in the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Nov 6
+
+
+```{block, week12optional, type='rmdoptional'}
+#### Optional {-}
+
+* 
+
+```
+
+______________________
+
+
+
+## Week 13: (Nov 11, 13, 15) {-}
+
+* Complete the **Data cleaning and summarizing with dplyr** chapter of _Exploratory Data Analysis with R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Nov 11
+
+* Complete the **Data visualization with ggplot2** chapter of _Exploratory Data Analysis with R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Nov 13
+
+
+```{block, week13optional, type='rmdoptional'}
+#### Optional {-}
+
+* 
+
+```
+
+_________________
+
+## Week 14: (Nov 18, 20, 22) {-}
+
+* Complete the **Tidy modeling with broom** chapter of _Exploratory Data Analysis with R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Nov 18
+
+* Complete the **Joining and tidying** chapter of _Exploratory Data Analysis with R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Nov 20
+
+
+
+
+
+```{block, week14optional, type='rmdoptional'}
+#### Optional {-}
+
+* 
+
+```
+
+________________________
+
+## Thanksgiving Break (Nov 27 -- 29)
+________________________
+
+
+## Week 15: (Nov 26 & Dec 3) {-}
+
+* [Reading material for weeks 14 and 15](../Rmarkdown/ChiSquareReading.pdf)
+
+* Watch Chi-Square Test of Independence video on ASULEARN
+
+* Watch Chi-Square Test of Homogeneity video on ASULEARN
+
+* [Goodness-Of-Fit](../Handouts/ChiGOF.html)
+
+* [In class Examples](../Rmarkdown/InClassNotes.html)
+
+* Complete the **Comparing Many Parameters: Goodness of Fit** chapter in _Inference for Categorical Data in R_--- [DataCamp](https://app.datacamp.com/groups/stt3850-f24/assignments) --- Due NLT 5:00 pm Dec 2
+
+* [Slides for weeks 14 and 15](../Rmarkdown/ChiSquareTests.pdf)
+
+* Course Review
+
+_____________________________________
+
+
+## Final Exam --- Section -101 (9:30 am Class): Dec 10: 8:00 am - 10:30 am
+## Final Exam --- Section -102 (11:00 am Class): Dec 5: 11:00 am - 1:30 pm
+
+
+
+________________
+
+<center> Last Updated on: `r format(Sys.time(), "%b %d, %Y at %X")` </center>
+
+________________
