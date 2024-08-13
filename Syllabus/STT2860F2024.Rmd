@@ -1,5 +1,5 @@
 ---
-title: "STT 3850 Syllabus - Fall 2024"
+title: "STT 2860 Syllabus - Fall 2024"
 author: ''
 date: ''
 output:
@@ -52,35 +52,22 @@ ________
 
 **Course Grading & Assessment:**
 
-* 15% of the course grade will come from DataCamp assignments (22).  **DataCamp** assignments are assigned for students to practice coding and to receive immediate computerized feedback.  You should attempt to answer the DataCamp questions correctly and not simply ask the program to show you a solution. 60% of your DataCamp grade will be a binary grade (1 or 0) for completion of the assigned DataCamp Chapter.  The remaining 40% of your DataCamp grade will be computed at the end of the course and will be based on your total XP points accumulated during the semester in DataCamp.  (XP greater than 19,720 A; XP greater than 18560B; XP greater than 17,400 C; XP greater than 16,240 D) 
+* 30% of the course grade will come from DataCamp assignments (28).  **DataCamp** assignments are assigned for students to practice coding and to receive immediate computerized feedback.  You should attempt to answer the DataCamp questions correctly and not simply ask the program to show you a solution. 60% of your DataCamp grade will be a binary grade (1 or 0) for completion of the assigned DataCamp Chapter.  The remaining 40% of your DataCamp grade will be computed at the end of the course and will be based on your total XP points accumulated during the semester in DataCamp.  (XP greater than 25,500 A; XP greater than 24,000 B; XP greater than 22,500 C; XP greater than 21,000 D) 
 
-* 35% of the course grade will come from Problem Sets (9).  See the grading rubric on the [Course Pacing Guide](../CoursePacing/CoursePacingF2024.html) for how Problem Sets will be evaluated.
+* 20% of the course grade will come from your answers to the assigned Exercises from R4DS.
 
-```{block, tiered, type='rmdnote'}
-**Tiered Feedback Explanation**
+* 10% of your grade will come from your Web page.
 
-**Level one**. Problem Sets are graded using the rubric on the course pacing guide.  The same rubric is used for all of the PS assignments, and you are graded on five categories with possible 3, 2, 1, or 0 points awarded per category.  Everyone who accepts a Problem Set will receive level 1 feedback in their repository **Issues**.  
+* 20% of your grade will come from the reproduction of the Bike Sharing example.
 
-**Level two**.  If you cannot determine what you could do better on future assignments based on the rubric feedback, you can request annotated (Level 2) feedback.  If you would like level 2 feedback, you should respond to me in the **Issues** (@alanarnholt) before noon the **Monday** after you receive level 1 feedback (which should arrive on **Fridays**) requesting Level 2 feedback. 
+* 20% of your grade will come from the analysis of an approved data set.
 
-I will provide Level two feedback using **Issues** in your repository to give additional details based on the rubric.  Anyone may ask for Level 2 feedback.  When you get your level 2 feedback (by **Tuesday** morning), you are expected to act on it to improve your code and mark the issues as “resolved” and message me in the **Issues** using (@alanarnholt) before noon on **Wednesday**.
-
-**Level three**.  After you have received your level 2 feedback, if you are still unclear as to how you can improve your work, you may request to meet with me during student help/office hours Wednesday to receive in-depth feedback and guidance for how to be more successful on the next assignment and how to resolve the Level 2 feedback/Git issues before noon on **Thursday**.
-
-Asking for level 2 feedback is an agreement between you and me that you will revise and resubmit your document by noon on **Thursday** and I will look at your revisions and may revise your original rubric grade.  If you ask for level 2 feedback and do not revise your document by noon of Thursday I may revise your original grade. After the **Thursday** following the **Thursday** when your PS is due, I will not review any further updates or corrections you push to your repository.
-```
-
-* 15% of the course grade will come from 5 Quizzes
-
-* 10% of the course grade will come from the Midterm exam
-
-* 25% of the course grade will come from the Final exam
 
 ________
 
 **University Policies**
 
-This course conforms with all Appalachian State University policies with respect to face coverings, academic integrity, disability services, class attendance, and student engagement.  The details of the policies may be found at <https://academicaffairs.appstate.edu/resources/syllabi-policy-and-statement-information>.  Please pay particular attention to the [student engagement statement](https://academicaffairs.appstate.edu/sites/academicaffairs.appstate.edu/files/gerber_resolution_student_workload_removed_approved_statement_per_mmccoughy_and_sedwards.pdf).
+This course conforms with all Appalachian State University policies with respect to academic integrity, disability services, class attendance, and student engagement.  The details of the policies may be found at <https://academicaffairs.appstate.edu/resources/syllabi-policy-and-statement-information>.  Please pay particular attention to the [student engagement statement](https://academicaffairs.appstate.edu/sites/academicaffairs.appstate.edu/files/gerber_resolution_student_workload_removed_approved_statement_per_mmccoughy_and_sedwards.pdf).
 
 ________
 
@@ -130,7 +117,7 @@ ____________
 * It is your (student) responsibility to learn the material and to seek help if you do not understand the material.  
 ```
 
-Appalachian students are expected to make intensive engagement with courses their first priority. Practically speaking, students should spend approximately 2-3 hours on coursework outside of class for every hour they spend in class. For this four-hour course, you you should anticipate 8-12 hours per week of outside work.
+Appalachian students are expected to make intensive engagement with courses their first priority. Practically speaking, students should spend approximately 2-3 hours on coursework outside of class for every hour they spend in class. For this three-hour course, you you should anticipate 6-9 hours per week of outside work.
 
 ________________
 
