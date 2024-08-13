@@ -236,7 +236,10 @@ _______________
 * Read [Chapter 6](https://r4ds.hadley.nz/workflow-scripts) Workflow: scripts and projects of R4DS.
 
 ```{block, EX6, type='rmdexercise'}
-* Answer **Exercises 1-4** in chapter 2 of R4DS in an R-Script or Quarto document.  
+
+* Transfer all previously completed exercises from chapter 1 of R4DS into the GitHub classroom provided Quarto document. (See ASULEARN for the GitHub classroom link to Quarto documents)
+
+* Answer **Exercises 1-4** in chapter 2 of R4DS in the GitHub classroom provided Quarto document.  
 
 * Complete the **Facets** chapter of _Intermediate Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 23
 
@@ -261,7 +264,7 @@ _____________
 * Read [Chapter 7](https://r4ds.hadley.nz/data-import) Data import of R4DS.
 
 ```{block, EX7, type='rmdexercise'}
-* Answer **Exercises 1-4** in chapter 3 of R4DS in an R-Script or Quarto document.  
+* Answer **Exercises 1-4** in chapter 3 of R4DS in the GitHub classroom provided Quarto document.  
 
 * Complete the **Data Wrangling** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 30
 
@@ -300,7 +303,7 @@ ___________
 * Read [Chapter 8](https://r4ds.hadley.nz/workflow-help) Workflow: getting help of R4DS.
 
 ```{block, EX8, type='rmdexercise'}
-* Answer  **Exercises 5-8 and 16** in chapter 3 of R4DS in an R-Script or Quarto document.  
+* Answer  **Exercises 5-8 and 16** in chapter 3 of R4DS in the GitHub classroom provided Quarto document.  
 
 * Complete the **Grouping and Summarizing** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 7
 
@@ -319,7 +322,7 @@ _______________
 * Read [Chapter 9](https://r4ds.hadley.nz/layers) Layers of R4DS.
 
 ```{block, EX9, type='rmdexercise'}
-* Answer **Exercises 1-4** in chapter 9 of R4DS in an R-Script or Quarto document.  
+* Answer **Exercises 1-4** in chapter 9 of R4DS in the GitHub classroom provided Quarto document.  
 
 * Complete the **Transforming Data with dplyr** chapter of _Data Manipulation with dplyr_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 16
 
@@ -356,7 +359,7 @@ ___________________________
 * Read [Chapter 10](https://r4ds.hadley.nz/eda) Exploratory data analysis of R4DS.
 
 ```{block, EX10, type='rmdexercise'}
-* Answer **Exercises 7-10** in chapter 9 of R4DS in an R-Script or Quarto document.  
+* Answer **Exercises 7-10** in chapter 9 of R4DS in the GitHub classroom provided Quarto document.  
 ```
 
 
