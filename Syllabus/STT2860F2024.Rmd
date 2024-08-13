@@ -41,6 +41,8 @@ This course is an introduction to the basics of data management and visualizatio
   
 **Supplemental Materials:**
 
+  - [Statistical Inference via Data Science](https://moderndive.com/) (MD)
+
   - [`ggplot2`: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/)
   
   - [R Graphics Cookbook, 2nd edition](https://r-graphics.org/)
