@@ -34,6 +34,10 @@ _________
 
 * Read [Chapter 1](https://r4ds.hadley.nz/data-visualize) Data Visualization of R4DS.
 
+* Read [What is Data Science](https://www.datacamp.com/blog/what-is-data-science-the-definitive-guide).
+
+* Watch [Getting to Know Your Data in R](https://www.youtube.com/watch?v=W3D-JSPExXo)
+
 ```{block, EX1, type='rmdexercise'}
 * Answer **Exercises 1-4 ** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document. 
 
@@ -119,6 +123,22 @@ __________________
 ```{block, week3optional, type='rmdoptional'}
 #### Optional {-}
 
+* Watch [Selecting Variables Using `dplyr` in R](https://www.youtube.com/watch?v=vDgP7J1qMCI)
+
+* Watch [Filtering Observations Using `dplyr` in R](https://www.youtube.com/watch?v=KWs8VNeWlbE)
+
+* Watch [Arranging Your Data Using `dplyr` in R](https://www.youtube.com/watch?v=BN9-zPuM-2g)
+
+* Watch [Adding New Columns Using `dplyr` in R](https://www.youtube.com/watch?v=stNOP4B1aGE)
+
+* Watch [Creating Summary Statistics Using `dplyr` in R](https://www.youtube.com/watch?v=PAE8oaC0vtk)
+
+* Watch [Practicing your Tidyverse Skills: Advanced Filters with Dplyr](https://www.youtube.com/watch?v=w5veSzXK1jw)
+
+* Watch [Practicing Your Tidyverse Skills: `if_else()` Functions with `dplyr`](https://www.youtube.com/watch?v=-j5Hbwua0fE)
+
+* Watch [Practicing your Tidyverse Skills: `case_when()` Functions with `dplyr`](https://www.youtube.com/watch?v=22KMfxZgCqE)
+
 * Posit [Cheat Sheets](https://posit.co/resources/cheatsheets/)
 
 * Work through chapter 5 (Using `ggplot2`) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)
@@ -133,6 +153,12 @@ ___________
 * Read Chapter 1 [Why Git? Why GitHub?](https://happygitwithr.com/big-picture) of Happy Git With `R`.
 
 * Read [Chapter 4](https://r4ds.hadley.nz/workflow-style) Workflow: code style of R4DS.
+
+* Watch [What is Reproducibility?](https://www.youtube.com/watch?v=j4PjMdfXfH4)
+
+* Watch [Tenets of Reproducibility](https://www.youtube.com/watch?v=1uJuB5nKfrc)
+
+* Watch [Project Management Foundations](https://www.youtube.com/watch?v=elMvykwA-Fo)
 
 ```{block, EX4, type='rmdexercise'}
 * Answer **Exercises 13-16** in chapter 1 of R4DS in an R-Script or Quarto document.
@@ -180,9 +206,17 @@ __________________
 
 * Read [Chapter 5](https://r4ds.hadley.nz/data-tidy) Data tidying of R4DS.
 
+* Watch [Combining Datasets Using `dplyr` in R](https://www.youtube.com/watch?v=kLgZYO3tcYA)
+
+* Watch [Binding Rows and Columns Using `dplyr` in R](https://www.youtube.com/watch?v=EaJgIW3J15Q)
+
+* Watch [Practicing Your Tidyverse Skills: Combining Data Frames](https://www.youtube.com/watch?v=st-MQY6pWeY)
+
 * Read [Chapter 28](https://r4ds.hadley.nz/quarto) Quarto of R4DS.
 
 * Read [Chapter 29](https://r4ds.hadley.nz/quarto-formats) Quarto formats of R4DS.
+
+* [Welcome to Quarto](https://quarto.org/)
 
 ```{block, EX5, type='rmdexercise'}
 * Answer **Exercises 17-20** in chapter 1 of R4DS in an R-Script or Quarto document.  
@@ -192,7 +226,7 @@ __________________
 * Complete the **Coordinates** chapter of _Intermediate Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 18
 ```
 
-* In class we will walk through creating and publishing a web site.
+* In class we will walk through creating and publishing a [web site](https://quarto.org/docs/websites/) with Quarto.
 
 _______________
 
