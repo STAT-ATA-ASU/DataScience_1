@@ -35,7 +35,7 @@ _________
 * Read [Chapter 1](https://r4ds.hadley.nz/data-visualize) Data Visualization of R4DS.
 
 ```{block, EX1, type='rmdexercise'}
-* Answer all **Exercises** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document. 
+* Answer **Exercises 1-4 ** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document. 
 
 * Complete the **Intro to Basics** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 20
 
@@ -78,7 +78,7 @@ ______________
 * Read [Chapter 2](https://r4ds.hadley.nz/workflow-basics) Workflow: basics of R4DS.
 
 ```{block, EX2, type='rmdexercise'}
-* Answer all **Exercises** in chapter 2 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document.  
+* Answer **Exercises 5-8** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document.  
 
 * Complete the **Factors** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 26
 
@@ -106,7 +106,7 @@ __________________
 * Read [Chapter 3](https://r4ds.hadley.nz/data-transform) Data transformation of R4DS.
 
 ```{block, EX3, type='rmdexercise'}
-* Answer all **Exercises** in chapter 3 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document. 
+* Answer **Exercises 9-12** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document. 
 
 * Complete the **Introduction** chapter of _Introduction to Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 4
 
@@ -135,7 +135,7 @@ ___________
 * Read [Chapter 4](https://r4ds.hadley.nz/workflow-style) Workflow: code style of R4DS.
 
 ```{block, EX4, type='rmdexercise'}
-* Answer all **Exercises** in chapter 4 of R4DS in an R-Script or Quarto document.
+* Answer **Exercises 13-16** in chapter 1 of R4DS in an R-Script or Quarto document.
 
 * Complete the **Geometries** chapter of _Introduction to Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 11
 
@@ -185,7 +185,7 @@ __________________
 * Read [Chapter 29](https://r4ds.hadley.nz/quarto-formats) Quarto formats of R4DS.
 
 ```{block, EX5, type='rmdexercise'}
-* Answer all **Exercises** in chapter 5 of R4DS in an R-Script or Quarto document.  
+* Answer **Exercises 17-20** in chapter 1 of R4DS in an R-Script or Quarto document.  
 
 * Complete the **Statistics** chapter of _Intermediate Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 16
 
@@ -202,7 +202,7 @@ _______________
 * Read [Chapter 6](https://r4ds.hadley.nz/workflow-scripts) Workflow: scripts and projects of R4DS.
 
 ```{block, EX6, type='rmdexercise'}
-* Answer all **Exercises** in chapter 6 of R4DS in an R-Script or Quarto document.  
+* Answer **Exercises 1-4** in chapter 2 of R4DS in an R-Script or Quarto document.  
 
 * Complete the **Facets** chapter of _Intermediate Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 23
 
@@ -227,7 +227,7 @@ _____________
 * Read [Chapter 7](https://r4ds.hadley.nz/data-import) Data import of R4DS.
 
 ```{block, EX7, type='rmdexercise'}
-* Answer all **Exercises** in chapter 7 of R4DS in an R-Script or Quarto document.  
+* Answer **Exercises 1-4** in chapter 3 of R4DS in an R-Script or Quarto document.  
 
 * Complete the **Data Wrangling** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 30
 
@@ -266,7 +266,7 @@ ___________
 * Read [Chapter 8](https://r4ds.hadley.nz/workflow-help) Workflow: getting help of R4DS.
 
 ```{block, EX8, type='rmdexercise'}
-* Answer all **Exercises** in chapter 8 of R4DS in an R-Script or Quarto document.  
+* Answer  **Exercises 5-8 and 16** in chapter 3 of R4DS in an R-Script or Quarto document.  
 
 * Complete the **Grouping and Summarizing** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 7
 
@@ -285,7 +285,7 @@ _______________
 * Read [Chapter 9](https://r4ds.hadley.nz/layers) Layers of R4DS.
 
 ```{block, EX9, type='rmdexercise'}
-* Answer all **Exercises** in chapter 9 of R4DS in an R-Script or Quarto document.  
+* Answer **Exercises 1-4** in chapter 9 of R4DS in an R-Script or Quarto document.  
 
 * Complete the **Transforming Data with dplyr** chapter of _Data Manipulation with dplyr_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 16
 
@@ -322,7 +322,7 @@ ___________________________
 * Read [Chapter 10](https://r4ds.hadley.nz/eda) Exploratory data analysis of R4DS.
 
 ```{block, EX10, type='rmdexercise'}
-* Answer all **Exercises** in chapter 10 of R4DS in an R-Script or Quarto document.  
+* Answer **Exercises 7-10** in chapter 9 of R4DS in an R-Script or Quarto document.  
 ```
 
 
@@ -337,7 +337,6 @@ _______________________
 * Read [Chapter 11](https://r4ds.hadley.nz/communication) Communication of R4DS.
 
 ```{block, EX11, type='rmdexercise'}
-* Answer all **Exercises** in chapter 11 of R4DS in an R-Script or Quarto document. 
 
 * Complete the **Custom ggplot2 Themes** chapter of _Communicating with Data in the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 29
 
