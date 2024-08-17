@@ -35,7 +35,7 @@ This course is an introduction to the basics of data management and visualizatio
 
 **Course Text:**
 
-  - [_R for Data Science_](http://r4ds.had.co.nz/) (R4DS)
+  - [_R for Data Science_](https://r4ds.hadley.nz/) (R4DS)
 
   
   
