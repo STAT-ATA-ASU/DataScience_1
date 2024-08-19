@@ -39,7 +39,7 @@ _________
 * Watch [Getting to Know Your Data in R](https://www.youtube.com/watch?v=W3D-JSPExXo)
 
 ```{block, EX1, type='rmdexercise'}
-* Answer **Exercises 1-4 ** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document. 
+* Answer **Exercises 1-4 ** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document. If you have set up Git and your PAT (see directions week 4), you may want to accept the Quarto book with files for each Chapter of the exercises by clicking [here](https://classroom.github.com/a/7dJZzUjQ). 
 
 * Complete the **Intro to Basics** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 20
 
@@ -82,7 +82,7 @@ ______________
 * Read [Chapter 2](https://r4ds.hadley.nz/workflow-basics) Workflow: basics of R4DS.
 
 ```{block, EX2, type='rmdexercise'}
-* Answer **Exercises 5-8** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document.  
+* Answer **Exercises 5-8** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document.  If you have set up Git and your PAT (see directions week 4), you may want to accept the Quarto book with files for each Chapter of the exercises by clicking [here](https://classroom.github.com/a/7dJZzUjQ).   
 
 * Complete the **Factors** chapter of _Introduction to R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Aug 26
 
@@ -110,7 +110,7 @@ __________________
 * Read [Chapter 3](https://r4ds.hadley.nz/data-transform) Data transformation of R4DS.
 
 ```{block, EX3, type='rmdexercise'}
-* Answer **Exercises 9-12** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document. 
+* Answer **Exercises 9-12** in chapter 1 of R4DS in an electronic document.  After R-Scripts are introduced, your answers will be transferred to an R-Script and eventually to a Quarto document. If you have set up Git and your PAT (see directions week 4), you may want to accept the Quarto book with files for each Chapter of the exercises by clicking [here](https://classroom.github.com/a/7dJZzUjQ). 
 
 * Complete the **Introduction** chapter of _Introduction to Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 4
 
@@ -161,7 +161,7 @@ ___________
 * Watch [Project Management Foundations](https://www.youtube.com/watch?v=elMvykwA-Fo)
 
 ```{block, EX4, type='rmdexercise'}
-* Answer **Exercises 13-16** in chapter 1 of R4DS in an R-Script or Quarto document.
+* Answer **Exercises 13-16** in chapter 1 of R4DS in an R-Script or Quarto document. If you have set up Git and your PAT (see directions week 4), you may want to accept the Quarto book with files for each Chapter of the exercises by clicking [here](https://classroom.github.com/a/7dJZzUjQ). 
 
 * Complete the **Geometries** chapter of _Introduction to Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 11
 
@@ -219,7 +219,7 @@ __________________
 * [Welcome to Quarto](https://quarto.org/)
 
 ```{block, EX5, type='rmdexercise'}
-* Answer **Exercises 17-20** in chapter 1 of R4DS in an R-Script or Quarto document.  
+* Answer **Exercises 17-20** in chapter 1 of R4DS in an R-Script or Quarto document. If you have set up Git and your PAT (see directions week 4), you may want to accept the Quarto book with files for each Chapter of the exercises by clicking [here](https://classroom.github.com/a/7dJZzUjQ).  
 
 * Complete the **Statistics** chapter of _Intermediate Data Visualization with ggplot2_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 16
 
@@ -237,7 +237,7 @@ _______________
 
 ```{block, EX6, type='rmdexercise'}
 
-* Transfer all previously completed exercises from chapter 1 of R4DS into the GitHub classroom provided Quarto document. (See ASULEARN for the GitHub classroom link to Quarto documents)
+* Transfer all previously completed exercises from chapter 1 of R4DS into the GitHub classroom provided Quarto book.  Accept the Quarto book by clicking [here](https://classroom.github.com/a/7dJZzUjQ). 
 
 * Answer **Exercises 1-4** in chapter 2 of R4DS in the GitHub classroom provided Quarto document.  
 
