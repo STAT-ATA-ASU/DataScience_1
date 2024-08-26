@@ -99,7 +99,7 @@ ______________
 
 * Read [Getting used to R, RStudio, and R Markdown](https://ismayc.github.io/rbasics-book/)
 
-
+* Review [Five Named Graphs](../Quarto/Alpha5NG.html)
 ```
 
 __________________
