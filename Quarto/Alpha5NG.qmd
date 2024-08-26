@@ -1,6 +1,11 @@
 ---
 title: "5NG"
-format: html
+format: 
+  html:
+    code-fold: true
+    theme:
+      light: litera
+      dark: cyborg
 ---
 
 # Scatterplots and overplotting
