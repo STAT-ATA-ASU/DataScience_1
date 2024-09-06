@@ -1,0 +1,34 @@
+---
+title: "Advanced Filter Exercises"
+format: html
+---
+
+```{r}
+library(tidyverse)
+```
+
+## Required packages and datasets
+
+Run the code in the code chunk below to load the datset `happy_full`.
+
+```{r}
+# install.packages("remotes")
+# remotes::install_github("matthewhirschey/tidybiology", force = TRUE)
+library(tidybiology)
+data(happy_full)
+```
+
+Choose countries that ane NOT in Europe i.e. countries that have a `region` entry that is NOT equal to either `"Western Europe"` or `"Central and Eastern Europe"`.
+
+```{r}
+happy_full |> 
+  filter(!region %in% c("Western Europe", "Central and Eastern Europe"))
+```
+
+Choose countries that do NOT have an above average `healthy_life_expectancy` or above average `generosity` score.
+
+```{r}
+happy_full |> 
+  filter(!(healthy_life_expectancy > mean(healthy_life_expectancy) | generosity > mean(generosity)))
+```
+
