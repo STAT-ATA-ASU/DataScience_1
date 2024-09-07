@@ -16,6 +16,8 @@ Run the code in the code chunk below to load the dataset `happy_full`.
 ```{r}
 # install.packages("remotes")
 # remotes::install_github("matthewhirschey/tidybiology", force = TRUE)
+# can also use devtools::install_github() since devtools is installed in
+# system library
 library(tidybiology)
 data(happy_full)
 happy_full |> 
