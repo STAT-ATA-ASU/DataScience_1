@@ -1,5 +1,5 @@
 ---
-title: "if_else() Exercises"
+title: "case_when() Exercises"
 format: 
   html:
     theme: default #litera, pulse, cosmo, sketchy
