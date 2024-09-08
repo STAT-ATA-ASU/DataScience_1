@@ -93,37 +93,40 @@ ans3b |>
 ```
 
 
-4.  Create a new variable called `wealthy` that is equal to TRUE is a country's `logged_gdp_per_capita` is higher than average, and equal to FALSE for all other countries. Count the number of TRUE and FALSE entries for this variable but *just for Europe*.
+4.  Create a new variable called `health_and_happiness` that equals - 
+
+- `"healthy and happy"` if the `healthy_life_expectancy` and `ladder_score` are both above average.
+- `"just healthy"` if the `healthy_life_expectancy"` is above average but `ladder_score` is not above average.
+- `"just happy"` if the `ladder_score` is above average but `healthy_life_expectancy` is not above average.
+- `"neither"` for all other cases.
+
+Plot the counts of each occurrence as a bar graph.  *BONUS* - Plot the bar graph in increasing order of counts.
 
 ```{r}
 happy_full |>
-  mutate(wealthy = if_else(
-    logged_gdp_per_capita > mean(logged_gdp_per_capita),
-    TRUE,
-    FALSE
-  )) |>
-  filter(str_detect(region, "Europe")) |>
-  count(wealthy) -> ans4
+  mutate(
+    health_and_happiness = case_when(
+      healthy_life_expectancy > mean(healthy_life_expectancy) &
+        ladder_score > mean(ladder_score) ~ "healthy and happy",
+      healthy_life_expectancy > mean(healthy_life_expectancy) &
+        ladder_score <= mean(ladder_score) ~ "just healthy",
+      ladder_score > mean(ladder_score) &
+        healthy_life_expectancy <= mean(healthy_life_expectancy) ~ "just happy",
+      TRUE ~ "neither"
+    )
+  ) -> ans4
 ans4 |> 
-  knitr::kable()
+  DT::datatable()
+ggplot(data = ans4, aes(x = health_and_happiness)) + 
+  geom_bar()
+
+ggplot(data = ans4, 
+       aes(x = fct_infreq(health_and_happiness))) + 
+  geom_bar()
+
+ggplot(data = ans4, 
+       aes(x = fct_rev(fct_infreq(health_and_happiness)))) + 
+  geom_bar()
 ```
 
-There are `r ans4$n[2]` TRUEs for the variable of interest in Europe.
 
-5.  Create a new variable called `prosperous_and_in_europe` that is is equal to TRUE if a country is in Europe and either has an above average `ladder_score` or an above average `logged_gdp_per_capita`. For all other countries, this variable should equal FALSE. Count the number of TRUE and FALSE entries in this new variable.
-
-```{r}
-happy_full |>
-  mutate(prosperous_and_in_europe = if_else((
-    str_detect(region, "Europe") &
-      (
-        ladder_score > mean(ladder_score) |
-          logged_gdp_per_capita > mean(logged_gdp_per_capita)
-      )
-  ), TRUE, FALSE,)) |>
-  count(prosperous_and_in_europe) -> ans5
-ans5 |> 
-  knitr::kable()
-```
-
-There are `r ans5$n[1]` FALSEs and `r ans5$n[2]` TRUEs for the variable `prosperous_and_in_europe`.
