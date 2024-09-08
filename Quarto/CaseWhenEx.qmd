@@ -1,0 +1,129 @@
+---
+title: "if_else() Exercises"
+format: 
+  html:
+    theme: default #litera, pulse, cosmo, sketchy
+code-fold: true  
+---
+
+Video [here](https://www.youtube.com/watch?v=-j5Hbwua0fE)
+
+```{r}
+#| message: false
+#| warning: false
+library(tidyverse)
+```
+
+## Required packages and datasets
+
+Run the code in the code chunk below to load the dataset `happy_full`.
+
+```{r}
+# install.packages("remotes")
+# remotes::install_github("matthewhirschey/tidybiology", force = TRUE)
+# can also use devtools::install_github() since devtools is installed in
+# system library
+library(tidybiology)
+data(happy_full)
+happy_full |>
+  DT::datatable()
+```
+
+1.  Create a new variable called `generoisty` that has a value of `"not generous"` if the `generosity` score is less than 0, `"moderately generous"` if the `generosity` score is between and inclusive of 0 and 0.3, and `"generous"` for all other cases.  Relocate `generosity_level` so that it appears as the "second" column of the output (i.e. comes after `country_name`).
+
+```{r}
+happy_full |>
+  mutate(
+    generosity_level = case_when(
+      generosity < 0 ~ "not generous",
+      generosity >= 0 & generosity <= 0.3 ~ "moderately generous",
+      TRUE ~ "generous"
+    )
+  ) |> 
+  relocate(generosity_level, .after = country_name, generosity) |> 
+  DT::datatable()
+```
+
+
+
+2.  Create a new variable called `continent` that is equal to `"Europe"` if a country is in Europe, `"Asia"` if a country is in Asia, and `"Other"` for all other countries.  Relocate `continent` so that it appears as the "third" column of the output.  Use the `region` variable to solve this exercise.
+
+```{r}
+happy_full |> 
+  mutate(continent = case_when(
+    str_detect(region, "Europe") ~ "Europe",
+    str_detect(region, "Asia") ~ "Asia",
+    TRUE ~ "Other"
+  )) |> 
+  relocate(continent, .after = region) |> 
+  DT::datatable()
+```
+
+
+
+3.  Create a new variable called `is_prosperous` that is equal to TRUE if a country's `ladder_score` is greater than average OR if a country's `logged_gdp_per_capita` is greater than average, and FALSE for all other countries.  Count the number of resulting TRUEs and FALSEs.
+
+Part 1: User `if_else()`
+
+```{r}
+happy_full |>
+  mutate(is_prosperous = if_else(
+    ladder_score > mean(ladder_score) |
+      logged_gdp_per_capita > mean(logged_gdp_per_capita),
+    TRUE,
+    FALSE
+  ))  |>
+  count(is_prosperous) -> ans3a
+ans3a |>
+  knitr::kable()
+```
+
+Part 2: Use `case_when()` to answer the previous question.  Did you get the same output as before?
+
+```{r}
+happy_full |>
+  mutate(is_prosperous = case_when(
+    ladder_score > mean(ladder_score) |
+      logged_gdp_per_capita > mean(logged_gdp_per_capita) ~ TRUE,
+    TRUE ~ FALSE
+  ))  |>
+  count(is_prosperous) -> ans3b
+ans3b |>
+  knitr::kable()
+```
+
+
+4.  Create a new variable called `wealthy` that is equal to TRUE is a country's `logged_gdp_per_capita` is higher than average, and equal to FALSE for all other countries. Count the number of TRUE and FALSE entries for this variable but *just for Europe*.
+
+```{r}
+happy_full |>
+  mutate(wealthy = if_else(
+    logged_gdp_per_capita > mean(logged_gdp_per_capita),
+    TRUE,
+    FALSE
+  )) |>
+  filter(str_detect(region, "Europe")) |>
+  count(wealthy) -> ans4
+ans4 |> 
+  knitr::kable()
+```
+
+There are `r ans4$n[2]` TRUEs for the variable of interest in Europe.
+
+5.  Create a new variable called `prosperous_and_in_europe` that is is equal to TRUE if a country is in Europe and either has an above average `ladder_score` or an above average `logged_gdp_per_capita`. For all other countries, this variable should equal FALSE. Count the number of TRUE and FALSE entries in this new variable.
+
+```{r}
+happy_full |>
+  mutate(prosperous_and_in_europe = if_else((
+    str_detect(region, "Europe") &
+      (
+        ladder_score > mean(ladder_score) |
+          logged_gdp_per_capita > mean(logged_gdp_per_capita)
+      )
+  ), TRUE, FALSE,)) |>
+  count(prosperous_and_in_europe) -> ans5
+ans5 |> 
+  knitr::kable()
+```
+
+There are `r ans5$n[1]` FALSEs and `r ans5$n[2]` TRUEs for the variable `prosperous_and_in_europe`.
