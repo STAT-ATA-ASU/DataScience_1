@@ -3,6 +3,7 @@ title: "Advanced Filter Exercises"
 format: 
   html:
     theme: default #litera, pulse, cosmo, sketchy
+code-fold: true
 ---
 
 

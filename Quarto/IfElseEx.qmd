@@ -3,8 +3,8 @@ title: "if_else() Exercises"
 format: 
   html:
     theme: default #litera, pulse, cosmo, sketchy
+code-fold: true  
 ---
-
 
 Video [here](https://www.youtube.com/watch?v=-j5Hbwua0fE)
 
@@ -25,11 +25,11 @@ Run the code in the code chunk below to load the dataset `happy_full`.
 # system library
 library(tidybiology)
 data(happy_full)
-happy_full |> 
+happy_full |>
   DT::datatable()
 ```
 
-1. Create a new variable called `wealthy` that is equal to TRUE if a country's `logged_gdp_per_capita` is higher than the average and equal to FALSE otherwise.  Count the number of TRUEs and FALSEs in `wealthy`.
+1.  Create a new variable called `wealthy` that is equal to TRUE if a country's `logged_gdp_per_capita` is higher than the average and equal to FALSE otherwise. Count the number of TRUEs and FALSEs in `wealthy`.
 
 ```{r}
 happy_full |>
@@ -38,19 +38,28 @@ happy_full |>
     TRUE,
     FALSE
   )) |>
-  count(wealthy) 
+  count(wealthy) -> ans1
+ans1 |>
+  knitr::kable()
 ```
 
-2. Create a new variable called `in_europe` that is equal to `"in Europe"` if a country is in Europe and `"not in Europe"` for all other countries. Use the `region` variable to solve this exercise.  Count the number of countries that are in Europe and not in Europe.
+There are `r ans1$n[1]` FALSEs and `r ans1$n[2]` TRUEs.
+
+2.  Create a new variable called `in_europe` that is equal to `"in Europe"` if a country is in Europe and `"not in Europe"` for all other countries. Use the `region` variable to solve this exercise. Count the number of countries that are in Europe and not in Europe.
 
 ```{r}
 unique(happy_full$region)
 happy_full |>
-  mutate(in_europe = if_else(str_detect(region, "Europe"), "in Europe", "not in Europe")) |> 
-  count(in_europe)
+  mutate(in_europe = if_else(str_detect(region, "Europe"), "in Europe", "not in Europe")) -> ans2
+ans2 |>
+  count(in_europe) -> ans2b
+ans2b |>
+  knitr::kable()
 ```
 
-3. Create a new variable called `wealthy_or_in_europe` that is equal to `"yes"` if a country's `logged_gdp_per_capita` is higher thatn average or if it is in Europ, and equal to `"no"` for all other countries. Count the number of `"yes"` and `"no"` in the new variable `wealthy_or_in_europe`.
+There are `r ans2b$n[1]` countries that are in Europe and `r ans2b$n[2]` countries that are not in Europe.
+
+3.  Create a new variable called `wealthy_or_in_europe` that is equal to `"yes"` if a country's `logged_gdp_per_capita` is higher than average or if it is in Europe, and equal to `"no"` for all other countries. Count the number of `"yes"` and `"no"` in the new variable `wealthy_or_in_europe`.
 
 ```{r}
 happy_full |>
@@ -58,49 +67,50 @@ happy_full |>
            if_else((
              logged_gdp_per_capita > mean(logged_gdp_per_capita) |
                str_detect(region, "Europe")
-           ), "yes", "no")) |>
-  count(wealthy_or_in_europe)
+           ), "yes", "no")) -> ans3
+ans3 |>
+  relocate(wealthy_or_in_europe) |>
+  head() |>
+  knitr::kable()
+ans3 |>
+  count(wealthy_or_in_europe) -> ans3b
+ans3b |>
+  knitr::kable()
 ```
 
-4. Create a new variable called `wealthy` that is equal to TRUE is a country's `logged_gdp_per_capita` is higher than average, and equal to FALSE for all other countries.  Count the number of TRUE and FALSE entries for this variable but *just for Europe*.
+There are `r ans3b$n[2]` countries that are either wealthy or in Europe.
 
+4.  Create a new variable called `wealthy` that is equal to TRUE is a country's `logged_gdp_per_capita` is higher than average, and equal to FALSE for all other countries. Count the number of TRUE and FALSE entries for this variable but *just for Europe*.
 
 ```{r}
 happy_full |>
-  mutate(wealthy = if_else(logged_gdp_per_capita > mean(logged_gdp_per_capita), TRUE, FALSE)) |> 
-  filter(str_detect(region, "Europe")) |> 
-  count(wealthy)
+  mutate(wealthy = if_else(
+    logged_gdp_per_capita > mean(logged_gdp_per_capita),
+    TRUE,
+    FALSE
+  )) |>
+  filter(str_detect(region, "Europe")) |>
+  count(wealthy) -> ans4
+ans4 |> 
+  knitr::kable()
 ```
 
-5.  Choose countries whose `ladder_score` is equal to the mean `ladder_score` $\pm$ the standard error (SE = $s/\sqrt{n}$) of `ladder_score` across all countries. 
+There are `r ans4$n[2]` TRUEs for the variable of interest in Europe.
+
+5.  Create a new variable called `prosperous_and_in_europe` that is is equal to TRUE if a country is in Europe and either has an above average `ladder_score` or an above average `logged_gdp_per_capita`. For all other countries, this variable should equal FALSE. Count the number of TRUE and FALSE entries in this new variable.
 
 ```{r}
 happy_full |>
-  summarize(xbar = mean(ladder_score),
-            SE = sd(ladder_score) / sqrt(length(ladder_score))) -> ans8
-ans8
-# Using between() with filter
-happy_full |>
-  filter(between(
-    ladder_score,
-    mean(ladder_score) - sd(ladder_score) / sqrt(nrow(happy_full)),
-    mean(ladder_score) + sd(ladder_score) / sqrt(nrow(happy_full))
-  )) -> ans9
-dim(ans9)
-# Using logical operators with filter
-happy_full |>
-  filter(
-    ladder_score >= mean(ladder_score) - sd(ladder_score) / sqrt(nrow(happy_full)) &
-      ladder_score <= mean(ladder_score) + sd(ladder_score) / sqrt(nrow(happy_full))
-  ) -> ans10
-dim(ans10)
-# Using near() with filter
-happy_full |>
-  filter(near(
-    ladder_score,
-    mean(ladder_score),
-    tol = sd(ladder_score) / sqrt(nrow(happy_full))
-  )) -> ans11
-dim(ans11)
+  mutate(prosperous_and_in_europe = if_else((
+    str_detect(region, "Europe") &
+      (
+        ladder_score > mean(ladder_score) |
+          logged_gdp_per_capita > mean(logged_gdp_per_capita)
+      )
+  ), TRUE, FALSE,)) |>
+  count(prosperous_and_in_europe) -> ans5
+ans5 |> 
+  knitr::kable()
 ```
 
+There are `r ans5$n[1]` FALSEs and `r ans5$n[2]` TRUEs for the variable `prosperous_and_in_europe`.
