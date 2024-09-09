@@ -1,7 +1,7 @@
 ---
 title: "Advanced Filter Exercises"
 date: last-modified
-date-format: "[Last modified on] MMMM DD, YYYY HH:mm:ss zzz"
+date-format: "[Last modified on] MMMM DD, YYYY, HH:mm:ss zzz"
 format: 
   html:
     theme: default #litera, pulse, cosmo, sketchy
