@@ -126,7 +126,9 @@ ggplot(data = ans4,
 
 ggplot(data = ans4, 
        aes(x = fct_rev(fct_infreq(health_and_happiness)))) + 
-  geom_bar()
+  geom_bar(fill = "purple", color = "black") + 
+  labs(x = "") + 
+  theme_bw()
 ```
 
 

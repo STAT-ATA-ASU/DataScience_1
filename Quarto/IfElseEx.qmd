@@ -50,7 +50,8 @@ There are `r ans1$n[1]` FALSEs and `r ans1$n[2]` TRUEs.
 ```{r}
 unique(happy_full$region)
 happy_full |>
-  mutate(in_europe = if_else(str_detect(region, "Europe"), "in Europe", "not in Europe")) -> ans2
+  mutate(in_europe = if_else(str_detect(region, "Europe"),
+                             "in Europe", "not in Europe")) -> ans2
 ans2 |>
   count(in_europe) -> ans2b
 ans2b |>
