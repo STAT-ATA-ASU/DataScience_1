@@ -35,10 +35,11 @@ happy_full |>
 ```{r}
 happy_full |>
   filter(!region %in% c("Western Europe", "Central and Eastern Europe")) -> ans1
-ggplot(ans1, aes(x = region)) +
+ggplot(ans1, aes(x = fct_infreq(region))) +
   geom_bar(fill = "darkgreen", color = "black") +
   coord_flip() +
-  theme_classic()
+  theme_classic() + 
+  labs(x = "")
 ```
 
 2. Choose countries that do NOT (have an above average `healthy_life_expectancy` or above average `generosity` score).
@@ -53,14 +54,13 @@ dim(ans3)
 # This is the same as
 happy_full |>
   filter((
-    healthy_life_expectancy <= mean(healthy_life_expectancy) &
+    healthy_life_expectancy <= mean(healthy_life_expectancy) & 
       generosity <= mean(generosity)
   )) -> ans4
 dim(ans4)
-
 ```
 
-3. Choose countries that are either in Europe of have a `ladder_score` above 7, and have a `healthy_life_expectancy` above 70.
+3. Choose countries that are either in Europe or have a `ladder_score` above 7, and have a `healthy_life_expectancy` above 70.
 
 ```{r}
 happy_full |>
@@ -79,6 +79,16 @@ happy_full |>
       region %in% c("Western Europe", "Central and Eastern Europe")
   ) -> ans6
 ans6 |>
+  relocate(region, ladder_score, healthy_life_expectancy) |>
+  DT::datatable()
+# To make the last bit of code work use parentheses as follows:
+happy_full |>
+  filter(healthy_life_expectancy > 70 &
+           (
+             ladder_score > 7 |
+               region %in% c("Western Europe", "Central and Eastern Europe")
+           )) -> ans6a
+ans6a |>
   relocate(region, ladder_score, healthy_life_expectancy) |>
   DT::datatable()
 ```
@@ -108,21 +118,21 @@ dim(ans8)
 ```{r}
 happy_full |>
   summarize(xbar = mean(ladder_score),
-            SE = sd(ladder_score) / sqrt(length(ladder_score))) -> ans8
+            SE = sd(ladder_score) / sqrt(sum(!is.na(ladder_score)))) -> ans8
 ans8
 # Using between() with filter
 happy_full |>
   filter(between(
     ladder_score,
-    mean(ladder_score) - sd(ladder_score) / sqrt(nrow(happy_full)),
-    mean(ladder_score) + sd(ladder_score) / sqrt(nrow(happy_full))
+    mean(ladder_score) - sd(ladder_score) / sqrt(sum(!is.na(ladder_score))),
+    mean(ladder_score) + sd(ladder_score) / sqrt(sum(!is.na(ladder_score)))
   )) -> ans9
 dim(ans9)
 # Using logical operators with filter
 happy_full |>
   filter(
-    ladder_score >= mean(ladder_score) - sd(ladder_score) / sqrt(nrow(happy_full)) &
-      ladder_score <= mean(ladder_score) + sd(ladder_score) / sqrt(nrow(happy_full))
+    ladder_score >= mean(ladder_score) - sd(ladder_score) / sqrt(sum(!is.na(ladder_score))) &
+      ladder_score <= mean(ladder_score) + sd(ladder_score) / sqrt(sum(!is.na(ladder_score)))
   ) -> ans10
 dim(ans10)
 # Using near() with filter
@@ -130,7 +140,7 @@ happy_full |>
   filter(near(
     ladder_score,
     mean(ladder_score),
-    tol = sd(ladder_score) / sqrt(nrow(happy_full))
+    tol = sd(ladder_score) / sqrt(sum(!is.na(ladder_score)))
   )) -> ans11
 dim(ans11)
 ```
