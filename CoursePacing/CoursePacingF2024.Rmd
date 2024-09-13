@@ -208,6 +208,8 @@ __________________
 
 * Watch [Combining Datasets Using `dplyr` in R](https://www.youtube.com/watch?v=kLgZYO3tcYA)
 
+* Watch [Hello, Quarto: A world of Possibilities (for Reproducible Publishing)](https://www.youtube.com/watch?v=Qrz2rUWM-uY)
+
 * Watch [Binding Rows and Columns Using `dplyr` in R](https://www.youtube.com/watch?v=EaJgIW3J15Q)
 
 * Watch [Practicing Your Tidyverse Skills: Combining Data Frames](https://www.youtube.com/watch?v=st-MQY6pWeY)
