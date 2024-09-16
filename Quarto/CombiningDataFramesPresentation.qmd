@@ -1,0 +1,121 @@
+---
+title: "Combining Data Frames Exercises"
+format:
+  revealjs: 
+    chalkboard: true
+    theme: serif
+code-fold: true  
+---
+
+## Video [here](https://www.youtube.com/watch?v=st-MQY6pWeY)
+
+```{r}
+#| message: false
+#| warning: false
+library(tidyverse)
+```
+
+## Required packages and datasets
+
+Run the code in the code chunk below to load the dataset `happy_full`.
+
+```{r}
+#| echo: true
+# install.packages("remotes")
+# remotes::install_github("matthewhirschey/tidybiology", force = TRUE)
+# can also use devtools::install_github() since devtools is installed in
+# system library
+library(tidybiology)
+data(happy)
+data(happy_join_one)
+data(happy_full)
+```
+
+## Problem One
+
+* Take a look at the three data frames - `happy`, `happy_join_one`, and `happy_full`.  
+
+```{r}
+#| echo: fenced
+#| label: "tbl-happy"
+#| tbl-cap: "Happy Data"
+happy |> 
+  gt::gt()
+```
+
+##
+
+See the results of `happy` in @tbl-happy, `happy_join_one` in @tbl-hjo, and the first six rows of `happy_full` in @tbl-hf.
+
+##
+
+```{r}
+#| label: "tbl-hjo"
+#| tbl-cap: "Happy Join One Data"
+happy_join_one |> 
+  gt::gt()
+```
+
+##
+
+```{r}
+#| label: "tbl-hf"
+#| tbl-cap: "Happy Full Data"
+happy_full |> 
+  head() |> 
+  gt::gt()
+```
+
+## Problem Two
+
+* Combine `happy` and `happy_join_one` by row.
+
+```{r}
+#| echo: fenced
+#| label: "tbl-br"
+#| tbl-cap: "Result of using `bind_rows()` with `happy` and `happy_join_one`"
+bind_rows(happy, happy_join_one) |> 
+  gt::gt()
+```
+## Problem Three
+
+* Combine `happy` and `happy_join_one` by column.  Note: Check to see if this is even possible.
+
+```{r}
+#| echo: fenced
+#| label: "tbl-bc"
+#| tbl-cap: "Result of using `bind_cols()` with `happy` and `happy_join_one`"
+nrow(happy) == nrow(happy_join_one)
+bind_cols(happy, happy_join_one) |> 
+  gt::gt()
+```
+## Problem Four
+
+* Which `join_*` function is a better alternative to the previous solution?
+
+```{r}
+#| echo: true
+happy |> 
+  inner_join(happy_join_one) |> 
+  gt::gt()
+```
+
+## Problem Five
+
+* Filter out all countries from `happy_full` that are also in `happy`.
+
+```{r}
+#| echo: TRUE
+happy_full |> 
+  filter(!country_name %in% happy$country_name) |> 
+  DT::datatable()
+```
+## 
+
+```{r}
+#| echo: true
+happy_full |> 
+  anti_join(happy) |> 
+  DT::datatable()
+```
+
