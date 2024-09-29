@@ -261,16 +261,63 @@ _______________
 _____________
 
 
-## Week 7: (Sep 30, Oct 2, 4) {-}
+## Week 7: School Closed - no Classes due to Helene (Sep 30, Oct 2, 4) {-}
+
+* ~~Read [Chapter 7](https://r4ds.hadley.nz/data-import) Data import of R4DS.~~
+
+```{block, EX7, type='rmdexercise'}
+* ~~Answer **Exercises 1-4** in chapter 3 of R4DS in the GitHub classroom provided Quarto document.~~  
+
+* ~~Complete the **Data Wrangling** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 30~~
+
+* ~~Complete the **Data Visualization** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 2~~
+```
+
+* ~~Start Project # 1 --- Due Oct 25 NLT 5:00 PM~~
+
+```{block, Project1c, type='rmdnote'}
+* ~~Project # 1: [Duplicate Amber Thomas's work on bicycle sharing](https://amber.rbind.io/2016/11/10/bicyclesseattle/) - Use your own formatting and publish your analysis on your personal GitHub webpage.~~
+* ~~For additional ideas see:~~ 
+  ~~1. Todd Schneider's blog [post](http://toddwschneider.com/posts/taxi-vs-citi-bike-nyc/)~~
+  ~~2. [bikedata](https://ropensci.org/blog/blog/2017/10/17/bikedata) package~~
+```
+
+```{block, week7optional, type='rmdoptional'}
+#### Optional {-}
+
+* ~~Read chapter 3 (Data Wrangling) of [MD](https://moderndive.com/3-wrangling.html) --- pgs 65-96~~
+
+* ~~Read chapter 4 (Data Importing and "Tidy" Data) of [MD](https://moderndive.com/4-tidy.html) --- pgs 99-117~~
+
+* ~~Work through chapter 3 (Starting with Data) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)~~
+
+* ~~Work through chapter 4 (Data Manipulation) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)~~
+
+```
+
+
+
+___________
+
+
+## Week 8: (Oct 7, 9, 11) {-}
 
 * Read [Chapter 7](https://r4ds.hadley.nz/data-import) Data import of R4DS.
 
-```{block, EX7, type='rmdexercise'}
+* Read [Chapter 8](https://r4ds.hadley.nz/workflow-help) Workflow: getting help of R4DS.
+
+```{block, EX8, type='rmdexercise'}
 * Answer **Exercises 1-4** in chapter 3 of R4DS in the GitHub classroom provided Quarto document.  
 
-* Complete the **Data Wrangling** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Sep 30
+* Answer  **Exercises 5-8 and 16** in chapter 3 of R4DS in the GitHub classroom provided Quarto document. 
 
-* Complete the **Data Visualization** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 2
+* Complete the **Data Wrangling** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 7
+
+* Complete the **Data Visualization** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 8
+
+* Complete the **Grouping and Summarizing** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 9
+
+* Complete the **Types of Visualizations** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 10
 ```
 
 * Start Project # 1 --- Due Oct 25 NLT 5:00 PM
@@ -282,7 +329,7 @@ _____________
   2. [bikedata](https://ropensci.org/blog/blog/2017/10/17/bikedata) package
 ```
 
-```{block, week7optional, type='rmdoptional'}
+```{block, week8optional, type='rmdoptional'}
 #### Optional {-}
 
 * Read chapter 3 (Data Wrangling) of [MD](https://moderndive.com/3-wrangling.html) --- pgs 65-96
@@ -294,24 +341,6 @@ _____________
 * Work through chapter 4 (Data Manipulation) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)
 
 ```
-
-
-
-___________
-
-
-## Week 8: (Oct 7, 9, 11) {-}
-
-* Read [Chapter 8](https://r4ds.hadley.nz/workflow-help) Workflow: getting help of R4DS.
-
-```{block, EX8, type='rmdexercise'}
-* Answer  **Exercises 5-8 and 16** in chapter 3 of R4DS in the GitHub classroom provided Quarto document.  
-
-* Complete the **Grouping and Summarizing** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 7
-
-* Complete the **Types of Visualizations** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 9
-```
-
 
 _______________
 
