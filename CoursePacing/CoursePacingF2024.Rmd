@@ -320,13 +320,15 @@ ___________
 * Complete the **Types of Visualizations** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 10
 ```
 
-* Start Project # 1 --- Due Oct 25 NLT 5:00 PM
+* Start Project # 1 --- Due Nov 1 NLT 5:00 PM
 
 ```{block, Project1, type='rmdnote'}
-* Project # 1: [Duplicate Amber Thomas's work on bicycle sharing](https://amber.rbind.io/2016/11/10/bicyclesseattle/) - Use your own formatting and publish your analysis on your personal GitHub webpage.
+* Project # 1: [Replicate Amber Thomas's work on bicycle sharing](https://amber.rbind.io/2016/11/10/bicyclesseattle/)
 * For additional ideas see: 
   1. Todd Schneider's blog [post](http://toddwschneider.com/posts/taxi-vs-citi-bike-nyc/)
   2. [bikedata](https://ropensci.org/blog/blog/2017/10/17/bikedata) package
+  3. Starter Code for Replication [here](https://classroom.github.com/a/vBfn6jUy)
+  4. Until we get a google API solution, your replication should look like [this](https://stat-ata-asu.github.io/BikeSharing/BikeSharing.html).  Note you do not need to include the callout hints in your work.
 ```
 
 ```{block, week8optional, type='rmdoptional'}
@@ -395,7 +397,7 @@ ___________________________
 
 
 
-* Project # 1 --- Due Oct 25 NLT 5:00 PM
+* ~~Project # 1 --- Due Oct 25 NLT 5:00 PM~~
 
 _______________________
 
@@ -403,6 +405,8 @@ _______________________
 ## Week 11: (Oct 28, 30, Nov 1) {-}
 
 * Read [Chapter 11](https://r4ds.hadley.nz/communication) Communication of R4DS.
+
+* Project # 1 --- Due Nov 1 NLT 5:00 PM
 
 ```{block, EX11, type='rmdexercise'}
 
