@@ -300,47 +300,47 @@ _____________
 ___________
 
 
-## Week 8: (Oct 7, 9, 11) {-}
+## Week 8: School Closed - no Classes due to Helene (Oct 7, 9, 11) {-}
 
-* Read [Chapter 7](https://r4ds.hadley.nz/data-import) Data import of R4DS.
+* ~~Read [Chapter 7](https://r4ds.hadley.nz/data-import) Data import of R4DS.~~
 
-* Read [Chapter 8](https://r4ds.hadley.nz/workflow-help) Workflow: getting help of R4DS.
+* ~~Read [Chapter 8](https://r4ds.hadley.nz/workflow-help) Workflow: getting help of R4DS.~~
 
 ```{block, EX8, type='rmdexercise'}
-* Answer **Exercises 1-4** in chapter 3 of R4DS in the GitHub classroom provided Quarto document.  
+* ~~Answer **Exercises 1-4** in chapter 3 of R4DS in the GitHub classroom provided Quarto document.~~  
 
-* Answer  **Exercises 5-8 and 16** in chapter 3 of R4DS in the GitHub classroom provided Quarto document. 
+* ~~Answer  **Exercises 5-8 and 16** in chapter 3 of R4DS in the GitHub classroom provided Quarto document.~~ 
 
-* Complete the **Data Wrangling** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 7
+* ~~Complete the **Data Wrangling** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 7~~
 
-* Complete the **Data Visualization** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 8
+* ~~Complete the **Data Visualization** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 8~~
 
-* Complete the **Grouping and Summarizing** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 9
+* ~~Complete the **Grouping and Summarizing** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 9~~
 
-* Complete the **Types of Visualizations** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 10
+* ~~Complete the **Types of Visualizations** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 10~~
 ```
 
-* Start Project # 1 --- Due Nov 1 NLT 5:00 PM
+* ~~Start Project # 1 --- Due Nov 1 NLT 5:00 PM~~
 
 ```{block, Project1, type='rmdnote'}
-* Project # 1: [Replicate Amber Thomas's work on bicycle sharing](https://amber.rbind.io/2016/11/10/bicyclesseattle/)
-* For additional ideas see: 
-  1. Todd Schneider's blog [post](http://toddwschneider.com/posts/taxi-vs-citi-bike-nyc/)
-  2. [bikedata](https://ropensci.org/blog/blog/2017/10/17/bikedata) package
-  3. Starter Code for Replication [here](https://classroom.github.com/a/vBfn6jUy)
-  4. Until we get a google API solution, your replication should look like [this](https://stat-ata-asu.github.io/BikeSharing/BikeSharing.html).  Note you do not need to include the callout hints in your work.
+* ~~Project # 1: [Replicate Amber Thomas's work on bicycle sharing](https://amber.rbind.io/2016/11/10/bicyclesseattle/)~~
+* ~~For additional ideas see:~~ 
+  1. ~~Todd Schneider's blog [post](http://toddwschneider.com/posts/taxi-vs-citi-bike-nyc/)~~
+  2. ~~[bikedata](https://ropensci.org/blog/blog/2017/10/17/bikedata) package~~
+  3. ~~Starter Code for Replication [here](https://classroom.github.com/a/vBfn6jUy)~~
+  4. ~~Until we get a google API solution, your replication should look like [this](https://stat-ata-asu.github.io/BikeSharing/BikeSharing.html).  Note you do not need to include the callout hints in your work.~~
 ```
 
 ```{block, week8optional, type='rmdoptional'}
 #### Optional {-}
 
-* Read chapter 3 (Data Wrangling) of [MD](https://moderndive.com/3-wrangling.html) --- pgs 65-96
+* ~~Read chapter 3 (Data Wrangling) of [MD](https://moderndive.com/3-wrangling.html) --- pgs 65-96~~
 
-* Read chapter 4 (Data Importing and "Tidy" Data) of [MD](https://moderndive.com/4-tidy.html) --- pgs 99-117
+* ~~Read chapter 4 (Data Importing and "Tidy" Data) of [MD](https://moderndive.com/4-tidy.html) --- pgs 99-117~~
 
-* Work through chapter 3 (Starting with Data) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)
+* ~~Work through chapter 3 (Starting with Data) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)~~
 
-* Work through chapter 4 (Data Manipulation) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)
+* ~~Work through chapter 4 (Data Manipulation) of [DSWR](https://stat-ata-asu.github.io/R_DS_BD2020/)~~
 
 ```
 
@@ -352,19 +352,32 @@ _______________
 
 ## Week 9: (Oct 16, 18) {-}
 
-* Read [Chapter 9](https://r4ds.hadley.nz/layers) Layers of R4DS.
+* Read [Chapter 7](https://r4ds.hadley.nz/data-import) Data import of R4DS.
 
-```{block, EX9, type='rmdexercise'}
-* Answer **Exercises 1-4** in chapter 9 of R4DS in the GitHub classroom provided Quarto document.  
+* Read [Chapter 8](https://r4ds.hadley.nz/workflow-help) Workflow: getting help of R4DS.
 
-* Complete the **Transforming Data with dplyr** chapter of _Data Manipulation with dplyr_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 16
+```{block, EX8H, type='rmdexercise'}
+* Answer **Exercises 1-4** in chapter 3 of R4DS in the GitHub classroom provided Quarto document.  
 
-* Complete the **Aggregating Data** chapter of _Data Manipulation with dplyr_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 18
+* Answer  **Exercises 5-8 and 16** in chapter 3 of R4DS in the GitHub classroom provided Quarto document. 
+
+* Complete the **Data Wrangling** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 16
+
+* Complete the **Data Visualization** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 18
+
+* Start Project # 1 --- Due Nov 15 NLT 5:00 PM
 ```
 
 
 
-
+```{block, Project1H, type='rmdnote'}
+* Project # 1: [Replicate Amber Thomas's work on bicycle sharing](https://amber.rbind.io/2016/11/10/bicyclesseattle/)
+* For additional ideas see: 
+  1. Todd Schneider's blog [post](http://toddwschneider.com/posts/taxi-vs-citi-bike-nyc/)
+  2. [bikedata](https://ropensci.org/blog/blog/2017/10/17/bikedata) package
+  3. Starter Code for Replication [here](https://classroom.github.com/a/vBfn6jUy)
+  4. Until we get a google API solution, your replication should look like [this](https://stat-ata-asu.github.io/BikeSharing/BikeSharing.html).  Note you do not need to include the callout hints in your work.
+```
 
 ```{block, week9optional, type='rmdoptional'}
 #### Optional {-}
@@ -389,15 +402,21 @@ ___________________________
 
 ## Week 10: (Oct 21, 23, 25) {-}
 
+* Read [Chapter 9](https://r4ds.hadley.nz/layers) Layers of R4DS.
+
 * Read [Chapter 10](https://r4ds.hadley.nz/eda) Exploratory data analysis of R4DS.
 
-```{block, EX10, type='rmdexercise'}
-* Answer **Exercises 7-10** in chapter 9 of R4DS in the GitHub classroom provided Quarto document.  
+```{block, EX9, type='rmdexercise'}
+* Answer **Exercises 1-4** in chapter 9 of R4DS in the GitHub classroom provided Quarto document.  
+
+* Complete the **Grouping and Summarizing** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 21
+
+* Complete the **Types of Visualizations** chapter of _Introduction to the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 23
+
+* Complete the **Transforming Data with dplyr** chapter of _Data Manipulation with dplyr_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 25
+
+* Work on Project # 1.
 ```
-
-
-
-* ~~Project # 1 --- Due Oct 25 NLT 5:00 PM~~
 
 _______________________
 
@@ -406,20 +425,20 @@ _______________________
 
 * Read [Chapter 11](https://r4ds.hadley.nz/communication) Communication of R4DS.
 
-* Project # 1 --- Due Nov 1 NLT 5:00 PM
 
 ```{block, EX11, type='rmdexercise'}
+* Answer **Exercises 7-10** in chapter 9 of R4DS in the GitHub classroom provided Quarto document.  
+
+* Complete the **Aggregating Data** chapter of _Data Manipulation with dplyr_ --- [DataCamp]() --- Due NLT 5:00 pm Oct 28
 
 * Complete the **Custom ggplot2 Themes** chapter of _Communicating with Data in the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 29
 
 * Complete the **Creating a Custom and Unique Visualization** chapter of _Communicating with Data in the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Oct 30
+
+* Work on Project # 1.
 ```
 
-* Start Project # 2 --- Due Dec 11 NLT 11:00 AM
 
-```{block, Project2, type='rmdnote'}
-* Project # 2: Pick a data set (get instructor's approval of the data NLT Nov 4).  Munge the data, create graphs, communicate your findings on your web page. 
-```
 
 
 _____________________
@@ -433,7 +452,7 @@ _____________________
 
 * Complete the **Customizing your RMarkdown Report** chapter of _Communicating with Data in the Tidyverse_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Nov 6
 
-* Work on Project # 2
+* Work on Project # 1.
 ```
 
 ______________________
@@ -448,8 +467,16 @@ ______________________
 
 * Complete the **Data visualization with ggplot2** chapter of _Exploratory Data Analysis with R_ --- [DataCamp](https://app.datacamp.com/groups/stt2860-f24/assignments) --- Due NLT 5:00 pm Nov 13
 
-* Work on Project # 2
+* Project # 1 due Nov 25.
 ``` 
+
+
+
+```{block, Project2, type='rmdnote'}
+* Start Project # 2 --- Due Dec 11 NLT 11:00 AM
+
+* Project # 2: Pick a data set (get instructor's approval of the data NLT Nov 18).  Munge the data, create graphs, communicate your findings on your web page. 
+```
 
 _________________
 
